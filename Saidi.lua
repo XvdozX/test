@@ -713,12 +713,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه المسح *',
-unLock   = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه الكتم *',
-lockKid  = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه التقييد *',
-lockKick = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه الطرد *',
-Reply    = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/Shanel_Resha)\n*— — — — — — — — —\n🎌المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه المسح *',
+unLock   = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه الكتم *',
+lockKid  = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه التقييد *',
+lockKick = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n🎌خاصيه الطرد *',
+Reply    = '[- 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 .](https://t.me/RBBOU)\n*— — — — — — — — —\n🎌المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -2401,7 +2401,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"Reshaa99_bot"}'
+Get_Json = Get_Json..'"Dev":"sourcemegzzBot"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -2548,7 +2548,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '『 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 』', url = 't.me/Shanel_Resha'},
+{text = '『 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 』', url = 't.me/RBBOU'},
 },
 }
 }
@@ -2631,7 +2631,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '『 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 』', url = 't.me/Shanel_Resha'},
+{text = '『 𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡 』', url = 't.me/RBBOU'},
 },
 }
 }
@@ -6257,7 +6257,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(2,140); 
 local Text ='*🎌تم اختيار المقطع الصوتي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6267,7 +6267,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(296,400); 
 local Text ='*🎆┊حـالات واتـس قصيـرة ➧🧸♥️*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVideo?chat_id=' .. msg.chat_id .. '&video=https://t.me/RSHDO5/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6277,7 +6277,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(6,641); 
 local Text ='*🎆┊ستـوريات آنمـي قصيـرة ➧ 🖤🧧*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVideo?chat_id=' .. msg.chat_id .. '&video=https://t.me/AA_Zll/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6287,7 +6287,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(2,1201); 
 local Text ='*🎌تم اختيار المقطع ميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/MemzDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6374,7 +6374,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(2,612); 
 local Text ='*🎌تم اختيار المقطع ريماكس لك 💞🎶*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/RemixDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6384,7 +6384,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(5,121); 
 local Text ='*🎌تم اختيار مقطـع الرقيـة الشـرعيـة 🕋🤍*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/Rqy_1/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -6394,7 +6394,7 @@ if not Redis:get(TheSaidi.."knele"..msg.chat_id) then
 Abs = math.random(7,592); 
 local Text ='*🎌تم اختيار المقطع شعر لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/Shanel_Resha"}}} 
+keyboard.inline_keyboard = {{{text = '𝗦𝗢𝗨𝗥𝗖𝗘〆𝗠𝗜𝗟𝗔𝗡.',url="t.me/RBBOU"}}} 
 local msg_id = msg.id/2097152/0.5 
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -8073,7 +8073,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9422,7 +9422,7 @@ local T = '* ❲ 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔 𝑩𝒐𝒕 ❳\n— 
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡', url = "https://t.me/Shanel_Resha"}
+{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡', url = "https://t.me/RBBOU"}
 },
 }
 local msgg = msg_id/2097152/0.5
@@ -9435,17 +9435,17 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 photo = "https://t.me/RBBOU/143"
 local T =[[
-◈￤ “Shanel_Resha”    𝙢𝙞𝙡𝙖𝙣
+◈￤ “RBBOU”    𝙢𝙞𝙡𝙖𝙣
 ◈￤𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙞𝙡𝙖𝙣
 ••┉ ┉┉ ┉ ┉ •××• ┉ ┉ ┉┉ ┉•• 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = "https://t.me/ttccss"},{text = 'ᗪᗴᐯ ᖇᗴՏᕼᗩ', url = "https://t.me/R_E_S_H_A_A"}
+{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = "https://t.me/ttccss"},{text = 'ᗪEᐯ ᗰᗩGᘔᘔ', url = "https://t.me/vpllqr"}
 },
 {
-{text = ' 〆 Source Channel', url = "https://t.me/Shanel_Resha"},{text =   '〆 Tws 𝙢𝙞𝙡𝙖𝙣  〠 ', url = "https://t.me/Shanel_Resha"}
+{text = ' 〆 Source Channel', url = "https://t.me/RBBOU"},{text =   '〆 Tws 𝙢𝙞𝙡𝙖𝙣  〠 ', url = "https://t.me/RBBOU"}
 },
 }
 }
@@ -9470,7 +9470,7 @@ data = {
 {text = '❺', data = msg.sender.user_id..'/help5'},{text = '❻', data = msg.sender.user_id..'/help6'},{text = '❼', data = msg.sender.user_id..'/NoNextSeting'},{text = '❽', data = msg.sender.user_id..'/listallAddorrem'},
 },
 {
-{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡.', url = 't.me/Shanel_Resha'},
+{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡.', url = 't.me/RBBOU'},
 },
 }
 }
@@ -9505,7 +9505,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9525,7 +9525,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9545,7 +9545,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9565,7 +9565,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9585,7 +9585,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -9605,7 +9605,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/Shanel_Resha'}, 
+{text = '- قناة السورس', url = 't.me/RBBOU'}, 
 },
 }
 }
@@ -10454,10 +10454,10 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = 't.me/ttccss'},{text = 'ᗪᗴᐯ ᖇᗴՏᕼᗩ', url = 't.me/R_E_S_H_A_A'}, 
+{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = 't.me/ttccss'},{text = 'ᗪEᐯ ᗰᗩGᘔᘔ', url = 't.me/vpllqr'}, 
 },
 {
-{text = '◈ السورس .', url = 't.me/Shanel_Resha'},{text = '◈ لتنصيب بوت .', url = 't.me/Reshaa99_bot'}, 
+{text = '◈ السورس .', url = 't.me/RBBOU'},{text = '◈ لتنصيب بوت .', url = 't.me/sourcemegzzBot'}, 
 },
 {
 {text = '◈ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -10470,10 +10470,10 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = 't.me/ttccss'},{text = 'ᗪᗴᐯ ᖇᗴՏᕼᗩ', url = 't.me/R_E_S_H_A_A'}, 
+{text = 'ᗪᗴᐯ Տᗴᘔᖇ', url = 't.me/ttccss'},{text = 'ᗪEᐯ ᗰᗩGᘔᘔ', url = 't.me/vpllqr'}, 
 },
 {
-{text = '◈ السورس .', url = 't.me/Shanel_Resha'},{text = '◈ لتنصيب بوت .', url = 't.me/Reshaa99_bot'}, 
+{text = '◈ السورس .', url = 't.me/RBBOU'},{text = '◈ لتنصيب بوت .', url = 't.me/sourcemegzzBot'}, 
 },
 {
 {text = '◈ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11628,7 +11628,7 @@ data = {
 {text = '❺', data = IdUser..'/help5'},{text = '❻', data = IdUser..'/help6'},{text = '❼', data = IdUser..'/NoNextSeting'},{text = '❽', data = IdUser..'/listallAddorrem'},
 },
 {
-{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡', url = 't.me/Shanel_Resha'},
+{text = '𝗦𝗢𝗨𝗥𝗖𝗘𓅛𝗠𝗜𝗟𝗔𝗡', url = 't.me/RBBOU'},
 },
 }
 }
